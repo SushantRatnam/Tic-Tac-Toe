@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+h1 {
+	text-align: center;
+}
+
 body {
 	margin: 0;
 }
@@ -26,13 +30,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .cell.x,
 .cell.circle {
-  position: relative;
-  cursor: not-allowed
+	position: relative;
+	cursor: not-allowed;
 }
 
 .cell.x::before {
@@ -91,27 +95,27 @@ body {
 }
 
 .overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
 }
 
 .reset {
-  cursor: pointer;
-  font-size: 2rem;
-  padding: 5px 10px;
-  border-radius: 10%;
+	cursor: pointer;
+	font-size: 2rem;
+	padding: 5px 10px;
+	border-radius: 10%;
 }
 
 .show {
-  display: flex;
+	display: flex;
 }
